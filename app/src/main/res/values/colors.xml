@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <item name="cGPanPrin" type="color">#EEEEEEEE</item>
+    <item name="cRosaCamBe" type="color">#F86E90</item>
+    <item name="cVerdeEditar" type="color">#0BC6C4</item>
+    <item name="cVioletaLicua" type="color">#9860CA</item>
+    <item name="cNaranjaCam" type="color">#FBB70E</item>
+    <item name="cCelesteGaleria" type="color">#119EDB</item>
+
+    <integer-array name="androidcolors">
+        <item>@color/cGPanPrin</item>
+        <item>@color/cRosaCamBe</item>
+        <item>@color/cVerdeEditar</item>
+        <item>@color/cVioletaLicua</item>
+        <item>@color/cNaranjaCam</item>
+        <item>@color/cCelesteGaleria</item>
+            </integer-array>
+</resources>

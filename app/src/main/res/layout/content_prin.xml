@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.usuario.boceto1.prin"
+    tools:showIn="@layout/activity_prin">
+    <RelativeLayout
+        android:id="@+id/cajaCB"
+        android:background="@android:color/darker_gray"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaLicua"
+        android:background="@color/cVioletaLicua"
+        android:layout_width="125dp"
+        android:layout_height="160dp"
+        android:layout_margin="6dp"
+        android:orientation="vertical"
+        android:layout_above="@id/cajaCB"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/mano"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Licuar"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaCam"
+        android:background="@color/cNaranjaCam"
+        android:layout_width="125dp"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+        android:layout_above="@id/cajaCB"
+        android:layout_margin="8dp"
+        android:layout_toRightOf="@id/cajaLicua"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/camara"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Camara"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaGale"
+        android:background="@color/cCelesteGaleria"
+        android:layout_width="125dp"
+        android:layout_height="160dp"
+        android:layout_margin="8dp"
+        android:layout_above="@id/cajaCB"
+        android:orientation="vertical"
+        android:layout_toRightOf="@id/cajaCam"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:src="@drawable/galeria"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Galeria"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaCamBe"
+        android:background="@color/cRosaCamBe"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_margin="8dp"
+        android:layout_above="@id/cajaLicua"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/carita_uno"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Camara de Belleza" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/cajaEdit"
+        android:background="@color/cVerdeEditar"
+        android:layout_width="200dp"
+        android:layout_height="160dp"
+        android:layout_margin="8dp"
+        android:layout_above="@id/cajaGale"
+        android:layout_toRightOf="@id/cajaCamBe"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="90dp"
+            android:layout_height="110dp"
+            android:layout_gravity="center"
+            android:layout_alignParentTop="true"
+            android:src="@drawable/varita_dos"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textColor="@android:color/white"
+            android:fontFamily="serif"
+            android:textStyle="bold"
+            android:text="Editar" />
+
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/cajaRes"
+        android:background="@color/cGPanPrin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cajaCamBe"
+        android:layout_margin="12dp"
+        android:orientation="vertical">
+
+    </RelativeLayout>
+</RelativeLayout>
