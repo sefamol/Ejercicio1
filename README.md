@@ -13,8 +13,8 @@ Captura
         <img src="/img/original.png" width="300">
     </center>
 
-    <br> imagen </br>
-            <img src="/img/copia.gif" width="300">
+    <br> ejercicio </br>
+            <img src="/img/copia.png" width="300">
         </center>
 </div>
 <br><br>
